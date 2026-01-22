@@ -1,6 +1,7 @@
 import express from 'express'
 import fs from 'fs'
 import path from 'path'
+import users from './MOCK_DATA.json' assert { type: 'json' };
 
 const app = express()
 const PORT = 5000;
