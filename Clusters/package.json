@@ -1,0 +1,14 @@
+{
+  "name": "clusters",
+  "version": "1.0.0",
+  "description": "Scale NodeJS application using the cluster module\r Multiple users concurrently accesing the server then Workload increases.\r When users increases then we can use clusters.\r We distribute the workload on server into multiple apllication threads of nodejs.\r We can make worker threads as no of cpus.\r When we use cluster it divides assigns the diifferent work with diffirent threads in nodejs in round robin fashion to distribute the workload.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
